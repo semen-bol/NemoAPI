@@ -10,6 +10,8 @@ API: NemoCM Bot (https://vk.com/nemocm)
 
 Open Source: https://github.com/semen-bol/NemoAPI
 
+NPM: https://www.npmjs.com/package/nemocm-api
+
 ## Использование
 Перед началом использования, нужно установить зависимость
 ```
