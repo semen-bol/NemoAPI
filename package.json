@@ -1,0 +1,15 @@
+{
+  "name": "nemocm-api",
+  "version": "1.2.3",
+  "description": "",
+  "main": "./packages/api/src/api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["api", "javascript", "nemocm", "nemo", "js"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
