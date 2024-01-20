@@ -23,9 +23,9 @@ const nemo = require("nemocm-api"); // Инициализация модуля
 const api = new nemo.api("nemo.t.test", "1") // Делаем настройку (token, version)
 
 async function getInfo() { // Описание функции
-    let request = await api.acc_getInfo() // Await тут идет как обязательная вещь
+    let request = await api.acc.getInfo() // Await тут идет как обязательная вещь
     console.log(request) // Выводим результат
 }
 
-getInfo() // Вызов функции ( { response: { user_id: 1, inBot_id: 1, user_tag: 'Павел' } } )
+getInfo() // Вызов функции ( { user_id: 1, inBot_id: 1, user_tag: 'Павел' } )
 ```
