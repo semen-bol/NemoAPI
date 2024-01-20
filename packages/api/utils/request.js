@@ -13,9 +13,9 @@ async function newReq (url, method, params){
     let data = request.data
 
     if(data.error){ 
-        return data 
+        return data.error
     } else if (data.response){ 
-        return data 
+        return data.response
     } else { 
         return { error: { error_code: -1, error_msg: "Server has been disabled" }} 
     }
