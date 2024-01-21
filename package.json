@@ -1,15 +1,21 @@
 {
   "name": "nemocm-api",
-  "version": "3.0.22",
+  "version": "2.0.3",
   "description": "",
   "main": "./packages/api/src/api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["api", "javascript", "nemocm", "nemo", "js"],
+  "keywords": [
+    "api",
+    "javascript",
+    "nemocm",
+    "nemo",
+    "js"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.7.0"
+    "axios": "^1.6.5"
   }
 }

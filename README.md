@@ -20,7 +20,7 @@ npm i node-fetch@2 // В случае если не работает модул�
 ```
 const nemo = require("nemocm-api"); // Инициализация модуля
 
-const api = new nemo.api("nemo.t.test", "1") // Делаем настройку (token, version)
+const api = new nemo.api({token: "NemoToken", v: 1}) // Делаем настройку (token, version)
 
 async function getInfo() { // Описание функции
     let request = await api.db.check({user_id: 1}) // Await тут идет как обязательная вещь

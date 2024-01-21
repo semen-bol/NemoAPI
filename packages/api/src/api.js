@@ -3,7 +3,7 @@ const request = require("../utils/request.js")
 var url = "http://localhost/m/"
 
 class api {
-    constructor(token, v) {
+    constructor({token, v}) {
         this._token = token;
         this._version = v;
     }  

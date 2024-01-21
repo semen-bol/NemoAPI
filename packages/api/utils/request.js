@@ -1,6 +1,6 @@
 /*
 / 100% javascript. Made with Love 
-/ xmlhttprequest module
+/ Axios module :D
 / 100% javascript. Made with Love 
 */
 
