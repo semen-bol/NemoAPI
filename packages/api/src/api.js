@@ -3,10 +3,10 @@ const request = require("../utils/request.js")
 var url = "http://localhost/m/"
 
 class api {
-    constructor({token, v}) {
+    constructor({token, v = 1}) {
         this._token = token;
         this._version = v;
-    }  
+    } 
 
     acc = {
         getInfo: async () => {

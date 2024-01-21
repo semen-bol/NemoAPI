@@ -14,7 +14,7 @@ Open Source: https://github.com/semen-bol/NemoAPI
 Перед началом использования, нужно установить зависимость
 ```
 npm i nemocm-api 
-npm i node-fetch@2 // В случае если не работает модуль
+npm i axios // В случае если не работает модуль
 ```
 Пример использования:
 ```
