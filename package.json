@@ -1,6 +1,6 @@
 {
   "name": "nemocm-api",
-  "version": "3.0.2",
+  "version": "3.0.22",
   "description": "",
   "main": "./packages/api/src/api.js",
   "scripts": {

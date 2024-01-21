@@ -22,7 +22,7 @@ class api {
             let result = await request.newReq(url, "utils.getServerTime", params)
             return result
         },
-        getShortLink: async (link) => {
+        getShortLink: async ({link}) => {
             let params = `?access_token=${this._token}&v=${this._version}&url=${link}`
             let result = await request.newReq(url, "utils.getShortLink", params)
             return result
@@ -35,17 +35,17 @@ class api {
     }
 
     chats = {
-        editTitle: async (chatId, title) => {
-            let params = `?access_token=${this._token}&v=${this._version}&chat_id=${chatId}&title=${title}`
+        editTitle: async ({chat_id, title}) => {
+            let params = `?access_token=${this._token}&v=${this._version}&chat_id=${chat_id}&title=${title}`
             let result = await request.newReq(url, "chats.editTitle", params)
             return result
         }
     }
 
     db = {
-        check: async (userId) => {
-            if(!userId) return { error: { error_code: -3, error_msg: "One of parametr invalid or empty" } }
-            let params = `?access_token=${this._token}&v=${this._version}&user_id=${userId}`
+        check: async ({user_id}) => {
+            if(!user_id) return { error: { error_code: -3, error_msg: "One of parametr invalid or empty" } }
+            let params = `?access_token=${this._token}&v=${this._version}&user_id=${user_id}`
             let result = await request.newReq(url, "db.check", params)
             return result
         }

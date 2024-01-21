@@ -1,6 +1,6 @@
 # NemoAPI
 ## Информация
-Оболочка для API Nemo, который позволяет установить и почти ничего не делать, кроме авторизации и вызова методов с параметрами.
+Оболочка для API Nemo, который позволяет установить и почти ничего не делать, кроме авторизации и вызова методов с параметрами. Модуль поддерживает автоисправление и подсказки в таких приложениях как VS Code и т.п.
 
 Made with Love ❤️ (100% JavaScript)
 
@@ -23,9 +23,9 @@ const nemo = require("nemocm-api"); // Инициализация модуля
 const api = new nemo.api("nemo.t.test", "1") // Делаем настройку (token, version)
 
 async function getInfo() { // Описание функции
-    let request = await api.acc.getInfo() // Await тут идет как обязательная вещь
+    let request = await api.db.check({user_id: 1}) // Await тут идет как обязательная вещь
     console.log(request) // Выводим результат
 }
 
-getInfo() // Вызов функции ( { user_id: 1, inBot_id: 1, user_tag: 'Павел' } )
+getInfo() // Вызов функции 
 ```
