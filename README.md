@@ -1,5 +1,6 @@
 # NemoAPI
 ![Static Badge](https://img.shields.io/github/license/semen-bol/NemoAPI)
+![Static Badge](https://img.shields.io/librariesio/dependent-repos/npm/axios?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Faxios)
 ## Информация
 Оболочка для API Nemo, который позволяет установить и почти ничего не делать, кроме авторизации и вызова методов с параметрами. Модуль поддерживает автоисправление и подсказки в таких приложениях как VS Code и т.п.
 
