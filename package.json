@@ -1,12 +1,28 @@
 {
-  "name": "pxolly-api",
-  "version": "1.0.7",
-  "description": "",
-  "main": "./api/src/api.js",
+  "name": "nemocm-api",
+  "version": "2.0.6",
+  "description": "API module for nemo api",
+  "main": "./packages/api/src/api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "api",
+    "javascript",
+    "nemocm",
+    "nemo",
+    "js"
+  ],
+  "author": "semen-bol",
+  "engines": {
+    "node": ">= 18.14.0",
+    "npm": ">= 9.3.1"
+  },
   "license": "MIT",
-  "keywords": ["pxolly", "api", "@pxolly", "@pxolly-api", "pxolly-api", "@pxollyapi", "pxollyapi", "js"]
+  "dependencies": {
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "nemocm-api": "^2.0.6"
+  }
 }
