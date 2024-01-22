@@ -1,21 +1,12 @@
 {
-  "name": "nemocm-api",
-  "version": "2.0.4",
+  "name": "pxolly-api",
+  "version": "1.0.7",
   "description": "",
-  "main": "./packages/api/src/api.js",
+  "main": "./api/src/api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "api",
-    "javascript",
-    "nemocm",
-    "nemo",
-    "js"
-  ],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.6.5"
-  }
+  "license": "MIT",
+  "keywords": ["pxolly", "api", "@pxolly", "@pxolly-api", "pxolly-api", "@pxollyapi", "pxollyapi", "js"]
 }
