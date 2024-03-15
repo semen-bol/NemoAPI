@@ -51,6 +51,22 @@ class api {
             return result
         }
     }
+
+    premium = {
+        citata: async ({name, avatar, text, date, background}) => {
+            let body = {
+                access_token: this.#_token,
+                v: this.#_version,
+                name: name,
+                avatar: avatar,
+                text: text,
+                date: date,
+                background: background
+            }
+            let result = await request.postReq(this.#_apiUrl, "premium.citata", body)
+            return result
+        }
+    }
 }
 
 module.exports = { api }

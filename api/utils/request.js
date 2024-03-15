@@ -16,11 +16,24 @@ async function newReq (url, method, params){
         return data.error
     } else if (data.response){ 
         return data.response
-    } else if(request.status !== 200){ 
-        return { error: { error_code: -1, error_msg: "Server has been disabled" }} 
     } else {
-        return data.response
+        return data
     }
 }
 
-module.exports = { newReq: newReq }
+async function postReq (url, method, body){
+    let newUrl = url + method
+
+    let request = await axios.post(newUrl, body)
+    let data = request.data
+
+    if(data.response){
+        return data.response
+    } else if(data.error){
+        return data.error
+    } else {
+        return data
+    }
+}
+
+module.exports = { newReq: newReq, postReq: postReq }
