@@ -6,8 +6,8 @@
 
 const axios = require("axios")
 
-async function newReq (url, method, params){ 
-    let newUrl = url + method + params
+async function newReq (url, method, params, base_params){ 
+    let newUrl = url + method + base_params + params
 
     let request = await axios.get(newUrl)
     let data = request.data

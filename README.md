@@ -4,11 +4,13 @@
 
 Made with Love ❤️ (100% JavaScript)
 
-Owner: Семён Болотов (https://vk.com/nemolayn)
+Owner: Семён Болотов (https://vk.com/nemolayn)*
 
-API: NemoCM Bot (https://vk.com/nemocm)
+API: NemoCM Bot (https://vk.com/nemocm)*
 
 Open Source: https://github.com/semen-bol/NemoAPI
+
+* - нашим модулем пользуется Создатель бота! У нас открытый исходный код и он всегда актуален! 
 
 ## Использование
 Перед началом использования, нужно установить зависимость
