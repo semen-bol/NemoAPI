@@ -10,6 +10,11 @@ class api {
         this.#_base_params = `?access_token=${this.#_token}&v=${this.#_version}`
     } 
 
+    async call(method, params){
+        let result = await request.newReq(this.#_apiUrl, method, params, this.#_base_params)
+        return result
+    }
+
     acc = {
         getInfo: async () => {
             let result = await request.newReq(this.#_apiUrl, "acc.getInfo", "", this.#_base_params)
