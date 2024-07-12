@@ -1,7 +1,7 @@
 ![Static Badge](https://img.shields.io/github/license/semen-bol/NemoAPI)
 ![Static Badge](https://img.shields.io/librariesio/dependent-repos/npm/axios?label=Axios)
-![Static Badge](https://img.shields.io/badge/Ru-ssia-red)
-![Static Badge](https://img.shields.io/badge/Nemo-top_bot-red)
+![Static Badge](https://img.shields.io/badge/Russia-%20-red)
+![Static Badge](https://img.shields.io/badge/NemoOneLove-%20-blue)
 # NemoAPI
 ## Информация
 Оболочка для API Nemo, который позволяет установить и почти ничего не делать, кроме авторизации и вызова методов с параметрами. Модуль поддерживает автоисправление и подсказки в таких приложениях как VS Code и т.п.
