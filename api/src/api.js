@@ -2,7 +2,7 @@ const request = require("../utils/request.js")
 
 class api {
     #_token; #_version; #_apiUrl; #_base_params
-    constructor({token, v = 1, url = "https://api.nemo-bot.site/m/"}) {
+    constructor({token, v = 1, url = "https://api.nemo-bot.ru/m/"}) {
         this.#_token = token;
         this.#_version = v;
 
