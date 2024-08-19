@@ -19,7 +19,7 @@ npm i nemocm-api
 npm i axios // В случае если не работает модуль
 ```
 Пример использования:
-```
+```javascript
 const nemo = require("nemocm-api"); // Инициализация модуля
 
 const api = new nemo.api({token: "NemoToken", v: 1}) // Делаем настройку (token, version)
